@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="builder" content="Stronglify">
+<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/295/favicon-1790899387-1791468872.svg">
+<title>Blog de Trote</title>
+<meta name="description" content="Rutinas, cuidados y rutas por Bogotá, contados por quienes pasean a tu perro cada semana.">
+<meta name="robots" content="index">
+<link rel="canonical" href="https://stronglifythemes.github.io/trote/"><style>
+html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}img{max-width:100%;height:auto}
+</style><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800&family=Unbounded:wght@700;800;900&display=swap" rel="stylesheet">
+<script src="https://media.stronglify.com/tailwind-play-3.4.17.js"></script>
+<script>tailwind.config={theme:{extend:{colors:{cielo:{DEFAULT:'#A9D8FB',hondo:'#8CC8F7'},naranja:{DEFAULT:'#FF8A1F',hondo:'#F06E00'},tinta:{DEFAULT:'#17171C',suave:'#34343F'}},fontFamily:{display:['Unbounded','system-ui','sans-serif'],sans:['Nunito','system-ui','sans-serif']}}}};</script>
+<style>:focus-visible{outline:3px solid #17171C;outline-offset:3px}.sobre-tinta :focus-visible{outline-color:#FFFFFF}summary::-webkit-details-marker{display:none}@keyframes aparecer{from{opacity:0;transform:translateY(-0.375rem)}}#menu-movil,details[open] p{animation:aparecer 0.2s ease-out}@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}</style></head>
+<body class="overflow-x-clip bg-cielo font-sans text-tinta antialiased">
+  <header class="relative z-30 bg-cielo">
+  <div class="mx-auto flex max-w-[75rem] items-center justify-between gap-4 px-5 py-4 sm:px-8">
+    <a href="/trote/" class="flex items-center rounded-full" aria-label="Trote, ir al inicio">
+      <span class="inline-block font-sans text-xl font-semibold tracking-tight">Trote</span>
+    </a>
+
+    <nav aria-label="Menú principal" class="hidden lg:block">
+      <ul class="flex items-center gap-1 font-display text-[0.8125rem] font-bold">
+        
+        <li><a href="/trote/" class="block rounded-full px-4 py-2.5 transition-colors duration-200 hover:bg-white">Inicio</a></li>
+        
+        <li><a href="/trote/page" class="block rounded-full px-4 py-2.5 transition-colors duration-200 hover:bg-white">Nosotros</a></li>
+        
+        <li><a href="/trote/blog" class="block rounded-full px-4 py-2.5 transition-colors duration-200 hover:bg-white">Blog</a></li>
+        
+      </ul>
+    </nav>
+
+    <div class="flex items-center gap-2">
+      <a href="#" class="hidden rounded-full bg-tinta px-5 py-3 font-display text-xs font-bold text-white transition duration-200 hover:-translate-y-0.5 hover:bg-tinta-suave active:translate-y-0 active:scale-[0.97] sm:inline-flex">Reservar un paseo</a>
+      <button type="button" id="menu-boton" class="flex h-11 w-11 items-center justify-center rounded-full bg-tinta text-white transition duration-200 hover:bg-tinta-suave active:scale-95 lg:hidden" aria-expanded="false" aria-controls="menu-movil" aria-label="Abrir menú">
+        <svg data-abrir viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg data-cerrar viewBox="0 0 24 24" class="hidden h-5 w-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav id="menu-movil" aria-label="Menú móvil" class="hidden px-5 pb-4 sm:px-8 lg:hidden">
+    <div class="rounded-[2rem] bg-white p-3">
+      <ul class="font-display text-base font-bold">
+        
+        <li><a href="/trote/" class="block rounded-full px-5 py-3 transition-colors duration-200 hover:bg-cielo/50">Inicio</a></li>
+        
+        <li><a href="/trote/page" class="block rounded-full px-5 py-3 transition-colors duration-200 hover:bg-cielo/50">Nosotros</a></li>
+        
+        <li><a href="/trote/blog" class="block rounded-full px-5 py-3 transition-colors duration-200 hover:bg-cielo/50">Blog</a></li>
+        
+      </ul>
+      <a href="#" class="mt-2 flex justify-center rounded-full bg-tinta px-6 py-4 font-display text-sm font-bold text-white transition duration-200 hover:bg-tinta-suave active:scale-[0.97] sm:hidden">Reservar un paseo</a>
+    </div>
+  </nav>
+</header>
+
+<script>(function(){var boton=document.getElementById('menu-boton');var menu=document.getElementById('menu-movil');if(!boton||!menu)return;function abrir(estado){menu.classList.toggle('hidden',!estado);boton.setAttribute('aria-expanded',String(estado));boton.setAttribute('aria-label',estado?'Cerrar menú':'Abrir menú');boton.querySelector('[data-abrir]').classList.toggle('hidden',estado);boton.querySelector('[data-cerrar]').classList.toggle('hidden',!estado)}boton.addEventListener('click',function(){abrir(boton.getAttribute('aria-expanded')!=='true')});document.addEventListener('keydown',function(e){if(e.key==='Escape'&&boton.getAttribute('aria-expanded')==='true'){abrir(false);boton.focus()}})})();</script>
+
+<main>
+
+  
+  <div class="mx-auto max-w-[75rem] px-5 pb-20 pt-8 sm:px-8 sm:pb-28 sm:pt-12 lg:pb-36 lg:pt-14">
+    <h1 class="break-words font-display text-[length:clamp(1.875rem,7.5vw,3.75rem)] font-black leading-[1.02] tracking-[-0.03em] text-balance max-w-[14em]">Blog de Trote</h1>
+    <p class="mt-6 max-w-[34rem] text-xl font-bold leading-snug">Rutinas, cuidados y rutas por Bogotá, contados por quienes pasean a tu perro cada semana.</p>
+  </div>
+
+  
+  <div class="relative -mt-10 rounded-t-[2.5rem] bg-white pb-28 pt-16 sm:-mt-14 sm:rounded-t-[3.5rem] sm:pb-36 sm:pt-24 lg:-mt-20 lg:rounded-t-[5rem] lg:pb-48 lg:pt-28">
+    <div class="mx-auto max-w-[75rem] px-5 sm:px-8">
+      <ul class="grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-10 lg:gap-y-14">
+        
+        <li>
+          <a href="/trote/article" class="group block rounded-[2rem]">
+            <img src="https://media.stronglify.com/295/trote-22-1790899407-1791468867.jpg" width="640" height="480" loading="lazy" alt="Foto del artículo" class="aspect-[4/3] w-full rounded-[2rem] object-cover">
+            <p class="mt-5 w-fit rounded-full bg-naranja px-4 py-2 font-display text-xs font-bold">Rutinas</p>
+            <h2 class="mt-4 font-display text-lg font-extrabold leading-tight tracking-[-0.01em]">Cuántos paseos necesita tu perro al día</h2>
+            <p class="mt-2 font-medium leading-relaxed">Depende de su edad, su tamaño y su energía. Una guía rápida para armar su rutina.</p>
+            <span class="mt-4 inline-block font-bold underline decoration-naranja decoration-4 underline-offset-4 transition-colors duration-200 group-hover:decoration-tinta">Leer artículo</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/trote/article" class="group block rounded-[2rem]">
+            <img src="https://media.stronglify.com/295/trote-23-1790899408-1791468866.jpg" width="640" height="480" loading="lazy" alt="Foto del artículo" class="aspect-[4/3] w-full rounded-[2rem] object-cover">
+            <p class="mt-5 w-fit rounded-full bg-naranja px-4 py-2 font-display text-xs font-bold">Cuidados</p>
+            <h2 class="mt-4 font-display text-lg font-extrabold leading-tight tracking-[-0.01em]">Qué hacer cuando llueve en Bogotá</h2>
+            <p class="mt-2 font-medium leading-relaxed">Impermeable, secado y rutas cubiertas para que el aguacero no cancele la salida.</p>
+            <span class="mt-4 inline-block font-bold underline decoration-naranja decoration-4 underline-offset-4 transition-colors duration-200 group-hover:decoration-tinta">Leer artículo</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/trote/article" class="group block rounded-[2rem]">
+            <img src="https://media.stronglify.com/295/trote-24-1790899408-1791468866.jpg" width="640" height="480" loading="lazy" alt="Foto del artículo" class="aspect-[4/3] w-full rounded-[2rem] object-cover">
+            <p class="mt-5 w-fit rounded-full bg-naranja px-4 py-2 font-display text-xs font-bold">Cachorros</p>
+            <h2 class="mt-4 font-display text-lg font-extrabold leading-tight tracking-[-0.01em]">El primer paseo en grupo de un cachorro</h2>
+            <p class="mt-2 font-medium leading-relaxed">Cómo presentarlo a otros perros sin que se asuste ni se sobreexcite.</p>
+            <span class="mt-4 inline-block font-bold underline decoration-naranja decoration-4 underline-offset-4 transition-colors duration-200 group-hover:decoration-tinta">Leer artículo</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/trote/article" class="group block rounded-[2rem]">
+            <img src="https://media.stronglify.com/295/trote-25-1790899408-1791468865.jpg" width="640" height="480" loading="lazy" alt="Foto del artículo" class="aspect-[4/3] w-full rounded-[2rem] object-cover">
+            <p class="mt-5 w-fit rounded-full bg-naranja px-4 py-2 font-display text-xs font-bold">Equipo</p>
+            <h2 class="mt-4 font-display text-lg font-extrabold leading-tight tracking-[-0.01em]">Arnés o collar: cuál conviene para caminar</h2>
+            <p class="mt-2 font-medium leading-relaxed">Los comparamos según el tamaño del perro y la forma en que tira de la correa.</p>
+            <span class="mt-4 inline-block font-bold underline decoration-naranja decoration-4 underline-offset-4 transition-colors duration-200 group-hover:decoration-tinta">Leer artículo</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/trote/article" class="group block rounded-[2rem]">
+            <img src="https://media.stronglify.com/295/trote-26-1790899409-1791468865.jpg" width="640" height="480" loading="lazy" alt="Foto del artículo" class="aspect-[4/3] w-full rounded-[2rem] object-cover">
+            <p class="mt-5 w-fit rounded-full bg-naranja px-4 py-2 font-display text-xs font-bold">Rutas</p>
+            <h2 class="mt-4 font-display text-lg font-extrabold leading-tight tracking-[-0.01em]">Tres parques de Usaquén para caminar sin afán</h2>
+            <p class="mt-2 font-medium leading-relaxed">Recorridos con sombra, pasto y poco tráfico que usamos cada semana.</p>
+            <span class="mt-4 inline-block font-bold underline decoration-naranja decoration-4 underline-offset-4 transition-colors duration-200 group-hover:decoration-tinta">Leer artículo</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/trote/article" class="group block rounded-[2rem]">
+            <img src="https://media.stronglify.com/295/trote-27-1790899410-1791468865.jpg" width="640" height="480" loading="lazy" alt="Foto del artículo" class="aspect-[4/3] w-full rounded-[2rem] object-cover">
+            <p class="mt-5 w-fit rounded-full bg-naranja px-4 py-2 font-display text-xs font-bold">Salud</p>
+            <h2 class="mt-4 font-display text-lg font-extrabold leading-tight tracking-[-0.01em]">Cómo saber si tu perro quedó bien ejercitado</h2>
+            <p class="mt-2 font-medium leading-relaxed">Señales sencillas para notar si el paseo fue suficiente o se quedó corto.</p>
+            <span class="mt-4 inline-block font-bold underline decoration-naranja decoration-4 underline-offset-4 transition-colors duration-200 group-hover:decoration-tinta">Leer artículo</span>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+
+</main>
+
+<footer class="sobre-tinta relative -mt-10 rounded-t-[2.5rem] bg-tinta pb-10 pt-16 text-white sm:-mt-14 sm:rounded-t-[3.5rem] sm:pt-20 lg:-mt-20 lg:rounded-t-[5rem] lg:pt-24">
+  <div class="mx-auto max-w-[75rem] px-5 sm:px-8">
+    <div class="grid gap-12 lg:grid-cols-[1.3fr_1fr_1fr_1.2fr] lg:gap-10">
+      <div>
+        <a href="/trote/" class="inline-flex items-center gap-2.5 rounded-full" aria-label="Trote">
+          <span class="flex h-10 w-10 items-center justify-center rounded-full bg-naranja text-tinta">
+            <svg viewBox="0 0 24 24" class="h-6 w-6" fill="currentColor" aria-hidden="true">
+              <path d="M12 11.2c-3 0-5.6 2.6-5.6 5.2 0 1.9 1.5 3 3.2 3 .9 0 1.6-.4 2.4-.4s1.5.4 2.4.4c1.7 0 3.2-1.1 3.2-3 0-2.6-2.6-5.2-5.6-5.2z"/>
+              <ellipse cx="5.2" cy="10.2" rx="1.9" ry="2.5" transform="rotate(-20 5.2 10.2)"/>
+              <ellipse cx="9.3" cy="6" rx="2" ry="2.7" transform="rotate(-8 9.3 6)"/>
+              <ellipse cx="14.7" cy="6" rx="2" ry="2.7" transform="rotate(8 14.7 6)"/>
+              <ellipse cx="18.8" cy="10.2" rx="1.9" ry="2.5" transform="rotate(20 18.8 10.2)"/>
+            </svg>
+          </span>
+          <span class="font-display text-2xl font-black leading-none tracking-[-0.04em]">trote</span>
+        </a>
+        <p class="mt-5 max-w-[20rem] font-medium leading-relaxed text-white/75">Paseos de perros en grupos pequeños, con reporte al terminar. Chicó, Rosales y Usaquén, Bogotá.</p>
+      </div>
+
+      
+      <div>
+        <h2 class="font-display text-sm font-bold">Paseos</h2>
+        <ul class="mt-4 space-y-3 font-medium text-white/75">
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">Paseo suelto</a></li>
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">Plan semanal</a></li>
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">Plan mensual</a></li>
+          
+        </ul>
+      </div>
+      
+      <div>
+        <h2 class="font-display text-sm font-bold">Trote</h2>
+        <ul class="mt-4 space-y-3 font-medium text-white/75">
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">Cómo funciona un paseo</a></li>
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">Zonas y paseadores</a></li>
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">Preguntas frecuentes</a></li>
+          
+        </ul>
+      </div>
+      
+
+      <div>
+        <h2 class="font-display text-sm font-bold">Contacto</h2>
+        <ul class="mt-4 space-y-3 font-medium text-white/75">
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">WhatsApp 300 555 0142</a></li>
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">hola@trote.co</a></li>
+          
+          <li>Lunes a sábado, de 7 a. m. a 6 p. m.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-14 flex flex-col gap-6 border-t border-white/15 pt-8 sm:flex-row sm:items-center sm:justify-between">
+      <p class="text-sm font-medium text-white/60">© 2026 Trote. Paseos de perros en Bogotá.</p>
+      <ul class="flex items-center gap-3">
+        <li><a href="#" aria-label="Instagram de Trote" class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition duration-200 hover:bg-naranja hover:text-tinta active:scale-95"><svg class="h-5 w-5" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg></a></li>
+        <li><a href="#" aria-label="WhatsApp de Trote" class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition duration-200 hover:bg-naranja hover:text-tinta active:scale-95"><svg class="h-5 w-5" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a></li>
+        <li><a href="#" aria-label="Facebook de Trote" class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition duration-200 hover:bg-naranja hover:text-tinta active:scale-95"><svg class="h-5 w-5" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</footer></body>
+</html>

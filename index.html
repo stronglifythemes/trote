@@ -1,0 +1,408 @@
+<!DOCTYPE html><html lang="es"><head>
+	
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width"/>
+<meta name="builder" content="Stronglify"/>
+<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/295/favicon-1790899387-1791468872.svg"/>
+<title>Paseo largo, perro feliz.</title>
+<meta name="description" content="Trote saca a tu perro 50 minutos en grupos de máximo cuatro y, apenas vuelve a casa, te manda el reporte con foto, mapa y kilómetros."/>
+<meta name="robots" content="index"/>
+<link rel="canonical" href="https://stronglifythemes.github.io/"/><style>
+html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}img{max-width:100%;height:auto}
+</style><link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800&amp;family=Unbounded:wght@700;800;900&amp;display=swap" rel="stylesheet"/>
+<script src="https://media.stronglify.com/tailwind-play-3.4.17.js"></script>
+<script>tailwind.config={theme:{extend:{colors:{cielo:{DEFAULT:'#A9D8FB',hondo:'#8CC8F7'},naranja:{DEFAULT:'#FF8A1F',hondo:'#F06E00'},tinta:{DEFAULT:'#17171C',suave:'#34343F'}},fontFamily:{display:['Unbounded','system-ui','sans-serif'],sans:['Nunito','system-ui','sans-serif']}}}};</script>
+<style>:focus-visible{outline:3px solid #17171C;outline-offset:3px}.sobre-tinta :focus-visible{outline-color:#FFFFFF}summary::-webkit-details-marker{display:none}@keyframes aparecer{from{opacity:0;transform:translateY(-0.375rem)}}#menu-movil,details[open] p{animation:aparecer 0.2s ease-out}@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}</style></head>
+<body class="overflow-x-clip bg-cielo font-sans text-tinta antialiased">
+  <header class="relative z-30 bg-cielo">
+  <div class="mx-auto flex max-w-[75rem] items-center justify-between gap-4 px-5 py-4 sm:px-8">
+    <a href="/trote/" class="flex items-center rounded-full" aria-label="Trote, ir al inicio">
+      <span class="inline-block font-sans text-xl font-semibold tracking-tight">Trote</span>
+    </a>
+
+    <nav aria-label="Menú principal" class="hidden lg:block">
+      <ul class="flex items-center gap-1 font-display text-[0.8125rem] font-bold">
+        
+        <li><a href="/trote/" class="block rounded-full px-4 py-2.5 transition-colors duration-200 hover:bg-white">Inicio</a></li>
+        
+        <li><a href="/trote/page" class="block rounded-full px-4 py-2.5 transition-colors duration-200 hover:bg-white">Nosotros</a></li>
+        
+        <li><a href="/trote/blog" class="block rounded-full px-4 py-2.5 transition-colors duration-200 hover:bg-white">Blog</a></li>
+        
+      </ul>
+    </nav>
+
+    <div class="flex items-center gap-2">
+      <a href="#" class="hidden rounded-full bg-tinta px-5 py-3 font-display text-xs font-bold text-white transition duration-200 hover:-translate-y-0.5 hover:bg-tinta-suave active:translate-y-0 active:scale-[0.97] sm:inline-flex">Reservar un paseo</a>
+      <button type="button" id="menu-boton" class="flex h-11 w-11 items-center justify-center rounded-full bg-tinta text-white transition duration-200 hover:bg-tinta-suave active:scale-95 lg:hidden" aria-expanded="false" aria-controls="menu-movil" aria-label="Abrir menú">
+        <svg data-abrir="" viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+        <svg data-cerrar="" viewBox="0 0 24 24" class="hidden h-5 w-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav id="menu-movil" aria-label="Menú móvil" class="hidden px-5 pb-4 sm:px-8 lg:hidden">
+    <div class="rounded-[2rem] bg-white p-3">
+      <ul class="font-display text-base font-bold">
+        
+        <li><a href="/trote/" class="block rounded-full px-5 py-3 transition-colors duration-200 hover:bg-cielo/50">Inicio</a></li>
+        
+        <li><a href="/trote/page" class="block rounded-full px-5 py-3 transition-colors duration-200 hover:bg-cielo/50">Nosotros</a></li>
+        
+        <li><a href="/trote/blog" class="block rounded-full px-5 py-3 transition-colors duration-200 hover:bg-cielo/50">Blog</a></li>
+        
+      </ul>
+      <a href="#" class="mt-2 flex justify-center rounded-full bg-tinta px-6 py-4 font-display text-sm font-bold text-white transition duration-200 hover:bg-tinta-suave active:scale-[0.97] sm:hidden">Reservar un paseo</a>
+    </div>
+  </nav>
+</header>
+
+<script>(function(){var boton=document.getElementById('menu-boton');var menu=document.getElementById('menu-movil');if(!boton||!menu)return;function abrir(estado){menu.classList.toggle('hidden',!estado);boton.setAttribute('aria-expanded',String(estado));boton.setAttribute('aria-label',estado?'Cerrar menú':'Abrir menú');boton.querySelector('[data-abrir]').classList.toggle('hidden',estado);boton.querySelector('[data-cerrar]').classList.toggle('hidden',!estado)}boton.addEventListener('click',function(){abrir(boton.getAttribute('aria-expanded')!=='true')});document.addEventListener('keydown',function(e){if(e.key==='Escape'&&boton.getAttribute('aria-expanded')==='true'){abrir(false);boton.focus()}})})();</script>
+
+<main>
+
+  
+  <section class="bg-cielo pb-28 pt-8 sm:pb-36 sm:pt-12 lg:pb-44 lg:pt-14">
+    <div class="mx-auto grid max-w-[75rem] items-center gap-12 px-5 sm:px-8 lg:grid-cols-[1.05fr_0.95fr]">
+      <div class="min-w-0">
+        <h1 class="font-display text-[length:clamp(2.1rem,10.4vw,4.75rem)] font-black leading-none tracking-[-0.03em] lg:text-[length:clamp(3rem,5.6vw,4.75rem)] [&amp;_b]:-ml-[0.1em] [&amp;_b]:mt-[0.14em] [&amp;_b]:block [&amp;_b]:w-fit [&amp;_b]:rounded-full [&amp;_b]:bg-naranja [&amp;_b]:px-[0.32em] [&amp;_b]:pb-[0.2em] [&amp;_b]:pt-[0.04em] [&amp;_strong]:-ml-[0.1em] [&amp;_strong]:mt-[0.14em] [&amp;_strong]:block [&amp;_strong]:w-fit [&amp;_strong]:rounded-full [&amp;_strong]:bg-naranja [&amp;_strong]:px-[0.32em] [&amp;_strong]:pb-[0.2em] [&amp;_strong]:pt-[0.04em]"><p>Paseo largo,<b>perro feliz.</b></p></h1>
+        <div class="mt-7 max-w-[31rem] text-lg font-medium leading-relaxed [&amp;_b]:font-extrabold [&amp;_strong]:font-extrabold"><p><b>Trote</b>saca a tu perro 50 minutos en grupos de máximo cuatro y, apenas vuelve a casa, te manda el reporte con foto, mapa y kilómetros.</p></div>
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a href="#" class="inline-flex items-center rounded-full bg-tinta px-7 py-4 font-display text-sm font-bold text-white transition duration-200 hover:-translate-y-0.5 hover:bg-tinta-suave active:translate-y-0 active:scale-[0.97]">Reservar un paseo</a>
+          <a href="#" class="inline-flex items-center rounded-full bg-white px-7 py-4 font-display text-sm font-bold transition duration-200 hover:-translate-y-0.5 hover:bg-naranja active:translate-y-0 active:scale-[0.97]">Ver tarifas</a>
+        </div>
+        <ul class="mt-7 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-extrabold">
+          <li class="flex items-center gap-2">
+            <svg viewBox="0 0 100 20" class="h-4 w-20" fill="currentColor" aria-hidden="true">
+              <defs><path id="estrella" d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8L1.5 7.7l5.9-.9z"></path></defs>
+              <use href="#estrella"></use><use href="#estrella" x="20"></use><use href="#estrella" x="40"></use><use href="#estrella" x="60"></use><use href="#estrella" x="80"></use>
+            </svg>
+            4,9 en reseñas de Google
+          </li>
+          <li>86 perros pasean cada semana</li>
+        </ul>
+      </div>
+
+      <div class="relative mx-auto w-full max-w-[32rem] pb-[13%] pt-[5%] lg:mr-0">
+        <div class="absolute right-0 top-[46%] aspect-square w-[86%] -translate-y-1/2 rounded-full bg-naranja"></div>
+
+        
+        <img src="https://media.stronglify.com/295/trote-03-1790899391-1791468871.png" alt="Ilustración decorativa del hero" class="absolute h-auto [&amp;:nth-of-type(1)]:left-[2%] [&amp;:nth-of-type(1)]:top-[4%] [&amp;:nth-of-type(1)]:w-[22%] [&amp;:nth-of-type(1)]:-rotate-12 [&amp;:nth-of-type(2)]:right-0 [&amp;:nth-of-type(2)]:top-0 [&amp;:nth-of-type(2)]:z-20 [&amp;:nth-of-type(2)]:w-[15%] [&amp;:nth-of-type(2)]:rotate-12 [&amp;:nth-of-type(3)]:bottom-[2%] [&amp;:nth-of-type(3)]:left-0 [&amp;:nth-of-type(3)]:z-20 [&amp;:nth-of-type(3)]:w-[36%] [&amp;:nth-of-type(4)]:bottom-0 [&amp;:nth-of-type(4)]:right-[24%] [&amp;:nth-of-type(4)]:z-20 [&amp;:nth-of-type(4)]:w-[11%]"/>
+        
+        <img src="https://media.stronglify.com/295/trote-04-1790899392-1791468871.png" alt="Ilustración decorativa del hero" class="absolute h-auto [&amp;:nth-of-type(1)]:left-[2%] [&amp;:nth-of-type(1)]:top-[4%] [&amp;:nth-of-type(1)]:w-[22%] [&amp;:nth-of-type(1)]:-rotate-12 [&amp;:nth-of-type(2)]:right-0 [&amp;:nth-of-type(2)]:top-0 [&amp;:nth-of-type(2)]:z-20 [&amp;:nth-of-type(2)]:w-[15%] [&amp;:nth-of-type(2)]:rotate-12 [&amp;:nth-of-type(3)]:bottom-[2%] [&amp;:nth-of-type(3)]:left-0 [&amp;:nth-of-type(3)]:z-20 [&amp;:nth-of-type(3)]:w-[36%] [&amp;:nth-of-type(4)]:bottom-0 [&amp;:nth-of-type(4)]:right-[24%] [&amp;:nth-of-type(4)]:z-20 [&amp;:nth-of-type(4)]:w-[11%]"/>
+        
+        <img src="https://media.stronglify.com/295/trote-05-1790899392-1791468871.png" alt="Ilustración decorativa del hero" class="absolute h-auto [&amp;:nth-of-type(1)]:left-[2%] [&amp;:nth-of-type(1)]:top-[4%] [&amp;:nth-of-type(1)]:w-[22%] [&amp;:nth-of-type(1)]:-rotate-12 [&amp;:nth-of-type(2)]:right-0 [&amp;:nth-of-type(2)]:top-0 [&amp;:nth-of-type(2)]:z-20 [&amp;:nth-of-type(2)]:w-[15%] [&amp;:nth-of-type(2)]:rotate-12 [&amp;:nth-of-type(3)]:bottom-[2%] [&amp;:nth-of-type(3)]:left-0 [&amp;:nth-of-type(3)]:z-20 [&amp;:nth-of-type(3)]:w-[36%] [&amp;:nth-of-type(4)]:bottom-0 [&amp;:nth-of-type(4)]:right-[24%] [&amp;:nth-of-type(4)]:z-20 [&amp;:nth-of-type(4)]:w-[11%]"/>
+        
+        <img src="https://media.stronglify.com/295/trote-06-1790899392-1791468871.png" alt="Ilustración decorativa del hero" class="absolute h-auto [&amp;:nth-of-type(1)]:left-[2%] [&amp;:nth-of-type(1)]:top-[4%] [&amp;:nth-of-type(1)]:w-[22%] [&amp;:nth-of-type(1)]:-rotate-12 [&amp;:nth-of-type(2)]:right-0 [&amp;:nth-of-type(2)]:top-0 [&amp;:nth-of-type(2)]:z-20 [&amp;:nth-of-type(2)]:w-[15%] [&amp;:nth-of-type(2)]:rotate-12 [&amp;:nth-of-type(3)]:bottom-[2%] [&amp;:nth-of-type(3)]:left-0 [&amp;:nth-of-type(3)]:z-20 [&amp;:nth-of-type(3)]:w-[36%] [&amp;:nth-of-type(4)]:bottom-0 [&amp;:nth-of-type(4)]:right-[24%] [&amp;:nth-of-type(4)]:z-20 [&amp;:nth-of-type(4)]:w-[11%]"/>
+        
+
+        <img src="https://media.stronglify.com/295/trote-02-1790899391-1791468872.png" width="560" height="800" alt="Ilustración 3D estilo juguete de un celular blanco con marco negro, en vertical y visto de frente, cuya pantalla muestra el reporte del paseo de una perra llamada Canela: fecha martes 6 de octubre, etiqueta En casa, bloque naranja con un anillo de avance y el texto 5,2 de 6 km, lista con tres casillas marcadas (hizo pipí, tomó agua, jugó con otros perros) y barra negra inferior con 50 min de paseo con Laura, fondo transparente" class="relative z-10 ml-auto mr-[12%] block h-auto w-[54%]"/>
+      </div>
+    </div>
+  </section>
+
+  
+  <div>
+    
+    <section class="group/cifra relative -mt-10 rounded-t-[2.5rem] bg-naranja even:bg-cielo pb-28 pt-16 sm:-mt-14 sm:rounded-t-[3.5rem] sm:pb-36 sm:pt-24 lg:-mt-20 lg:rounded-t-[5rem] lg:pb-48 lg:pt-32">
+      <div class="mx-auto grid max-w-[75rem] items-center gap-12 px-5 sm:px-8 lg:grid-cols-2">
+        <div class="min-w-0 lg:group-even/cifra:order-2">
+          <p class="flex flex-wrap items-center gap-x-[0.08em] gap-y-3 font-display text-[length:clamp(5rem,28vw,11.5rem)] font-black leading-[0.82] tracking-[-0.04em] lg:text-[length:clamp(8rem,14.5vw,11.5rem)]">
+            <span>5,2</span>
+            <span class="rounded-full bg-cielo px-[0.5em] pb-[0.24em] pt-[0.14em] text-[0.3em] leading-none tracking-normal text-tinta group-even/cifra:bg-naranja">km</span>
+          </p>
+          <h2 class="mt-7 max-w-[13em] font-display text-[length:clamp(1.6rem,5.6vw,2.75rem)] font-extrabold leading-[1.02] tracking-[-0.02em] text-balance">Camina de verdad, no solo la cuadra.</h2>
+        </div>
+        <div class="relative mx-auto aspect-square w-full max-w-[22rem] lg:max-w-[30rem] lg:group-even/cifra:order-1">
+          <div class="absolute inset-[4%] rounded-full bg-naranja-hondo group-even/cifra:bg-cielo-hondo"></div>
+          <img src="https://media.stronglify.com/295/trote-07-1790899393-1791468871.png" width="720" height="720" loading="lazy" alt="Ilustración de la cifra" class="absolute inset-[13%] h-[74%] w-[74%] object-contain"/>
+        </div>
+      </div>
+    </section>
+    
+    <section class="group/cifra relative -mt-10 rounded-t-[2.5rem] bg-naranja even:bg-cielo pb-28 pt-16 sm:-mt-14 sm:rounded-t-[3.5rem] sm:pb-36 sm:pt-24 lg:-mt-20 lg:rounded-t-[5rem] lg:pb-48 lg:pt-32">
+      <div class="mx-auto grid max-w-[75rem] items-center gap-12 px-5 sm:px-8 lg:grid-cols-2">
+        <div class="min-w-0 lg:group-even/cifra:order-2">
+          <p class="flex flex-wrap items-center gap-x-[0.08em] gap-y-3 font-display text-[length:clamp(5rem,28vw,11.5rem)] font-black leading-[0.82] tracking-[-0.04em] lg:text-[length:clamp(8rem,14.5vw,11.5rem)]">
+            <span>50</span>
+            <span class="rounded-full bg-cielo px-[0.5em] pb-[0.24em] pt-[0.14em] text-[0.3em] leading-none tracking-normal text-tinta group-even/cifra:bg-naranja">min</span>
+          </p>
+          <h2 class="mt-7 max-w-[13em] font-display text-[length:clamp(1.6rem,5.6vw,2.75rem)] font-extrabold leading-[1.02] tracking-[-0.02em] text-balance">El reloj corre solo mientras camina.</h2>
+        </div>
+        <div class="relative mx-auto aspect-square w-full max-w-[22rem] lg:max-w-[30rem] lg:group-even/cifra:order-1">
+          <div class="absolute inset-[4%] rounded-full bg-naranja-hondo group-even/cifra:bg-cielo-hondo"></div>
+          <img src="https://media.stronglify.com/295/trote-08-1790899394-1791468871.png" width="720" height="720" loading="lazy" alt="Ilustración de la cifra" class="absolute inset-[13%] h-[74%] w-[74%] object-contain"/>
+        </div>
+      </div>
+    </section>
+    
+    <section class="group/cifra relative -mt-10 rounded-t-[2.5rem] bg-naranja even:bg-cielo pb-28 pt-16 sm:-mt-14 sm:rounded-t-[3.5rem] sm:pb-36 sm:pt-24 lg:-mt-20 lg:rounded-t-[5rem] lg:pb-48 lg:pt-32">
+      <div class="mx-auto grid max-w-[75rem] items-center gap-12 px-5 sm:px-8 lg:grid-cols-2">
+        <div class="min-w-0 lg:group-even/cifra:order-2">
+          <p class="flex flex-wrap items-center gap-x-[0.08em] gap-y-3 font-display text-[length:clamp(5rem,28vw,11.5rem)] font-black leading-[0.82] tracking-[-0.04em] lg:text-[length:clamp(8rem,14.5vw,11.5rem)]">
+            <span>4</span>
+            <span class="rounded-full bg-cielo px-[0.5em] pb-[0.24em] pt-[0.14em] text-[0.3em] leading-none tracking-normal text-tinta group-even/cifra:bg-naranja">perros</span>
+          </p>
+          <h2 class="mt-7 max-w-[13em] font-display text-[length:clamp(1.6rem,5.6vw,2.75rem)] font-extrabold leading-[1.02] tracking-[-0.02em] text-balance">Grupos pequeños, correa doble.</h2>
+        </div>
+        <div class="relative mx-auto aspect-square w-full max-w-[22rem] lg:max-w-[30rem] lg:group-even/cifra:order-1">
+          <div class="absolute inset-[4%] rounded-full bg-naranja-hondo group-even/cifra:bg-cielo-hondo"></div>
+          <img src="https://media.stronglify.com/295/trote-09-1790899395-1791468870.png" width="720" height="720" loading="lazy" alt="Ilustración de la cifra" class="absolute inset-[13%] h-[74%] w-[74%] object-contain"/>
+        </div>
+      </div>
+    </section>
+    
+  </div>
+
+  
+  <section class="relative -mt-10 rounded-t-[2.5rem] bg-white pb-28 pt-16 sm:-mt-14 sm:rounded-t-[3.5rem] sm:pb-36 sm:pt-24 lg:-mt-20 lg:rounded-t-[5rem] lg:pb-48 lg:pt-28">
+    <div class="mx-auto max-w-[75rem] px-5 sm:px-8">
+      <h2 class="font-display text-[length:clamp(1.75rem,5vw,2.5rem)] font-extrabold leading-[1.05] tracking-[-0.02em] text-balance">Así funciona un paseo</h2>
+      <ol class="mt-10 grid gap-10 md:grid-cols-3 md:gap-6 lg:gap-10">
+        
+        <li>
+          <img src="https://media.stronglify.com/295/trote-10-1790899396-1791468870.jpg" width="640" height="480" loading="lazy" alt="Ilustración del paso" class="aspect-[4/3] w-full rounded-[2rem] object-cover"/>
+          <h3 class="mt-5 font-display text-lg font-extrabold leading-tight tracking-[-0.01em]">Nos conocemos</h3>
+          <p class="mt-2 font-medium leading-relaxed">Visita de 30 minutos en tu casa, sin costo.</p>
+        </li>
+        
+        <li>
+          <img src="https://media.stronglify.com/295/trote-11-1790899397-1791468870.jpg" width="640" height="480" loading="lazy" alt="Ilustración del paso" class="aspect-[4/3] w-full rounded-[2rem] object-cover"/>
+          <h3 class="mt-5 font-display text-lg font-extrabold leading-tight tracking-[-0.01em]">Sale a pasear</h3>
+          <p class="mt-2 font-medium leading-relaxed">50 minutos con su grupo y la ruta registrada.</p>
+        </li>
+        
+        <li>
+          <img src="https://media.stronglify.com/295/trote-12-1790899397-1791468869.jpg" width="640" height="480" loading="lazy" alt="Ilustración del paso" class="aspect-[4/3] w-full rounded-[2rem] object-cover"/>
+          <h3 class="mt-5 font-display text-lg font-extrabold leading-tight tracking-[-0.01em]">Te llega el reporte</h3>
+          <p class="mt-2 font-medium leading-relaxed">Foto, mapa y kilómetros por WhatsApp.</p>
+        </li>
+        
+      </ol>
+    </div>
+  </section>
+
+  
+  <section class="relative -mt-10 rounded-t-[2.5rem] bg-cielo pb-28 pt-16 sm:-mt-14 sm:rounded-t-[3.5rem] sm:pb-36 sm:pt-24 lg:-mt-20 lg:rounded-t-[5rem] lg:pb-48 lg:pt-28">
+    <div class="mx-auto max-w-[75rem] px-5 sm:px-8">
+      <h2 class="max-w-[16em] font-display text-[length:clamp(1.75rem,5vw,2.5rem)] font-extrabold leading-[1.05] tracking-[-0.02em] text-balance">Tarifas por paseo, por semana o por mes</h2>
+      <p class="mt-4 max-w-[34rem] text-lg font-medium leading-relaxed">Todas incluyen 50 minutos de caminata, grupo de máximo cuatro y reporte al terminar.</p>
+
+      <div class="mt-10 grid gap-4 md:grid-cols-3 lg:gap-6">
+        
+        <article class="rounded-[2rem] bg-white p-6 lg:p-7 [&amp;:nth-child(2)]:bg-tinta [&amp;:nth-child(2)]:text-white">
+          <h3 class="font-display text-base font-extrabold lg:text-lg">Paseo suelto</h3>
+          <p class="mt-4 whitespace-nowrap font-display text-[2rem] font-extrabold leading-none tracking-[-0.03em] md:text-[1.5rem] lg:text-[2rem]">$ 26.000</p>
+          <p class="mt-2 text-sm font-bold opacity-70">por paseo</p>
+          <p class="mt-4 font-medium leading-relaxed">Para probar o para días puntuales.</p>
+        </article>
+        
+        <article class="rounded-[2rem] bg-white p-6 lg:p-7 [&amp;:nth-child(2)]:bg-tinta [&amp;:nth-child(2)]:text-white">
+          <h3 class="font-display text-base font-extrabold lg:text-lg">Plan semanal</h3>
+          <p class="mt-4 whitespace-nowrap font-display text-[2rem] font-extrabold leading-none tracking-[-0.03em] md:text-[1.5rem] lg:text-[2rem]">$ 115.000</p>
+          <p class="mt-2 text-sm font-bold opacity-70">por semana</p>
+          <p class="mt-4 font-medium leading-relaxed">Cinco paseos, de lunes a viernes.</p>
+        </article>
+        
+        <article class="rounded-[2rem] bg-white p-6 lg:p-7 [&amp;:nth-child(2)]:bg-tinta [&amp;:nth-child(2)]:text-white">
+          <h3 class="font-display text-base font-extrabold lg:text-lg">Plan mensual</h3>
+          <p class="mt-4 whitespace-nowrap font-display text-[2rem] font-extrabold leading-none tracking-[-0.03em] md:text-[1.5rem] lg:text-[2rem]">$ 400.000</p>
+          <p class="mt-2 text-sm font-bold opacity-70">al mes</p>
+          <p class="mt-4 font-medium leading-relaxed">Veinte paseos con el mismo paseador.</p>
+        </article>
+        
+      </div>
+
+      <div class="mt-10 flex flex-wrap items-center gap-x-6 gap-y-4">
+        <a href="#" class="inline-flex items-center rounded-full bg-tinta px-7 py-4 font-display text-sm font-bold text-white transition duration-200 hover:-translate-y-0.5 hover:bg-tinta-suave active:translate-y-0 active:scale-[0.97]">Reservar un paseo</a>
+        <p class="max-w-[24rem] font-medium leading-snug">Paseo individual: $ 12.000 adicionales. Segundo perro de la misma casa: 30 % menos.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="relative -mt-10 rounded-t-[2.5rem] bg-white pb-28 pt-16 sm:-mt-14 sm:rounded-t-[3.5rem] sm:pb-36 sm:pt-24 lg:-mt-20 lg:rounded-t-[5rem] lg:pb-48 lg:pt-28">
+    <div class="mx-auto grid max-w-[75rem] items-center gap-12 px-5 sm:px-8 lg:grid-cols-2 lg:gap-16">
+      <div class="min-w-0">
+        <h2 class="font-display text-[length:clamp(1.75rem,5vw,2.5rem)] font-extrabold leading-[1.05] tracking-[-0.02em] text-balance">Tres zonas de Bogotá, un paseador fijo en cada una</h2>
+        <p class="mt-5 max-w-[32rem] text-lg font-medium leading-relaxed">Llegamos a Rosales, El Nogal, Quinta Camacho y Chapinero Alto; a El Chicó, La Cabrera, Chicó Norte y Antiguo Country; y a Usaquén, Santa Bárbara, Santa Ana y Cedritos.</p>
+        <div class="mt-6 font-bold leading-relaxed [&amp;_a]:underline [&amp;_a]:decoration-naranja [&amp;_a]:decoration-4 [&amp;_a]:underline-offset-4 [&amp;_a]:transition-colors [&amp;_a]:duration-200 [&amp;_a:hover]:decoration-tinta"><p>¿Tu barrio no aparece?<a href="#">Pregunta si llegamos a tu barrio</a></p></div>
+      </div>
+      <ul class="grid grid-cols-3 gap-4 sm:gap-6">
+        
+        <li class="text-center">
+          <img src="https://media.stronglify.com/295/trote-13-1790899398-1791468869.jpg" width="320" height="320" loading="lazy" alt="Foto del paseador" class="aspect-square w-full rounded-full object-cover"/>
+          <h3 class="mt-4 font-display text-sm font-extrabold leading-tight sm:text-base">Laura</h3>
+          <p class="mt-1 text-sm font-medium">Rosales</p>
+        </li>
+        
+        <li class="text-center">
+          <img src="https://media.stronglify.com/295/trote-14-1790899398-1791468869.jpg" width="320" height="320" loading="lazy" alt="Foto del paseador" class="aspect-square w-full rounded-full object-cover"/>
+          <h3 class="mt-4 font-display text-sm font-extrabold leading-tight sm:text-base">Andrés</h3>
+          <p class="mt-1 text-sm font-medium">Chicó</p>
+        </li>
+        
+        <li class="text-center">
+          <img src="https://media.stronglify.com/295/trote-15-1790899398-1791468868.jpg" width="320" height="320" loading="lazy" alt="Foto del paseador" class="aspect-square w-full rounded-full object-cover"/>
+          <h3 class="mt-4 font-display text-sm font-extrabold leading-tight sm:text-base">Daniela</h3>
+          <p class="mt-1 text-sm font-medium">Usaquén</p>
+        </li>
+        
+      </ul>
+    </div>
+  </section>
+
+  
+  <section class="relative -mt-10 rounded-t-[2.5rem] bg-cielo pb-28 pt-16 sm:-mt-14 sm:rounded-t-[3.5rem] sm:pb-36 sm:pt-24 lg:-mt-20 lg:rounded-t-[5rem] lg:pb-48 lg:pt-28">
+    <div class="mx-auto grid max-w-[75rem] gap-10 px-5 sm:px-8 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
+      <div class="min-w-0">
+        <h2 class="font-display text-[length:clamp(1.75rem,5vw,2.5rem)] font-extrabold leading-[1.05] tracking-[-0.02em] text-balance">Lo que nos preguntan antes del primer paseo</h2>
+        <a href="#" class="mt-7 inline-flex items-center gap-2.5 rounded-full bg-tinta px-7 py-4 font-display text-sm font-bold text-white transition duration-200 hover:-translate-y-0.5 hover:bg-tinta-suave active:translate-y-0 active:scale-[0.97]">
+          <svg class="h-4 w-4 shrink-0" aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+          Escribir por WhatsApp
+        </a>
+      </div>
+
+      <div class="min-w-0 divide-y divide-tinta/15 self-start rounded-[2rem] bg-white px-6 py-2 sm:px-8">
+        
+        <details class="group">
+          <summary class="group/pregunta flex cursor-pointer list-none items-center justify-between gap-4 py-4 text-lg font-extrabold leading-snug">
+            ¿Qué pasa si llueve?
+            <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-cielo transition-colors duration-200 group-open:bg-naranja group-hover/pregunta:bg-naranja">
+              <svg viewBox="0 0 20 20" class="h-4 w-4 transition-transform duration-200 group-open:rotate-45" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M10 4v12M4 10h12"></path></svg>
+            </span>
+          </summary>
+          <p class="pb-6 font-medium leading-relaxed">Con lluvia suave salimos igual, con impermeable y secado antes de entrar. Si hay tormenta eléctrica, reponemos el paseo sin costo.</p>
+        </details>
+        
+        <details class="group">
+          <summary class="group/pregunta flex cursor-pointer list-none items-center justify-between gap-4 py-4 text-lg font-extrabold leading-snug">
+            ¿Mi perro va suelto en algún momento?
+            <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-cielo transition-colors duration-200 group-open:bg-naranja group-hover/pregunta:bg-naranja">
+              <svg viewBox="0 0 20 20" class="h-4 w-4 transition-transform duration-200 group-open:rotate-45" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M10 4v12M4 10h12"></path></svg>
+            </span>
+          </summary>
+          <p class="pb-6 font-medium leading-relaxed">No. Camina siempre con arnés y correa de doble gancho, también dentro de los parques.</p>
+        </details>
+        
+        <details class="group">
+          <summary class="group/pregunta flex cursor-pointer list-none items-center justify-between gap-4 py-4 text-lg font-extrabold leading-snug">
+            ¿Cómo lo recogen si no estoy en casa?
+            <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-cielo transition-colors duration-200 group-open:bg-naranja group-hover/pregunta:bg-naranja">
+              <svg viewBox="0 0 20 20" class="h-4 w-4 transition-transform duration-200 group-open:rotate-45" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M10 4v12M4 10h12"></path></svg>
+            </span>
+          </summary>
+          <p class="pb-6 font-medium leading-relaxed">Puedes dejar la llave en portería o entregarnos una copia, que guardamos marcada con un código y sin tu dirección.</p>
+        </details>
+        
+        <details class="group">
+          <summary class="group/pregunta flex cursor-pointer list-none items-center justify-between gap-4 py-4 text-lg font-extrabold leading-snug">
+            ¿Puedo cancelar un paseo?
+            <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-cielo transition-colors duration-200 group-open:bg-naranja group-hover/pregunta:bg-naranja">
+              <svg viewBox="0 0 20 20" class="h-4 w-4 transition-transform duration-200 group-open:rotate-45" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M10 4v12M4 10h12"></path></svg>
+            </span>
+          </summary>
+          <p class="pb-6 font-medium leading-relaxed">Sí, hasta 12 horas antes y sin costo. En los planes semanal y mensual ese paseo queda a tu favor por 30 días.</p>
+        </details>
+        
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="relative -mt-10 rounded-t-[2.5rem] bg-naranja pb-28 pt-16 sm:-mt-14 sm:rounded-t-[3.5rem] sm:pb-36 sm:pt-24 lg:-mt-20 lg:rounded-t-[5rem] lg:pb-48 lg:pt-32">
+    <div class="mx-auto grid max-w-[75rem] items-center gap-12 px-5 sm:px-8 lg:grid-cols-2">
+      <div class="min-w-0">
+        <h2 class="font-display text-[length:clamp(2.5rem,12.5vw,5.5rem)] font-black leading-[0.95] tracking-[-0.04em] lg:text-[length:clamp(3.5rem,7vw,5.5rem)]">¿Salimos mañana?</h2>
+        <p class="mt-6 max-w-[30rem] text-lg font-medium leading-relaxed">La primera visita es gratis y dura 30 minutos. Te respondemos el mismo día.</p>
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a href="#" class="inline-flex items-center rounded-full bg-tinta px-7 py-4 font-display text-sm font-bold text-white transition duration-200 hover:-translate-y-0.5 hover:bg-tinta-suave active:translate-y-0 active:scale-[0.97]">Reservar un paseo</a>
+          <a href="#" class="inline-flex items-center gap-2.5 rounded-full bg-white px-7 py-4 font-display text-sm font-bold transition duration-200 hover:-translate-y-0.5 hover:bg-cielo active:translate-y-0 active:scale-[0.97]">
+            <svg class="h-4 w-4 shrink-0" aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+            Escribir por WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="relative mx-auto aspect-square w-full max-w-[22rem] lg:max-w-[30rem]">
+        <div class="absolute inset-[4%] rounded-full bg-naranja-hondo"></div>
+        <img src="https://media.stronglify.com/295/trote-16-1790899400-1791468868.png" width="720" height="720" loading="lazy" alt="Ilustración 3D estilo juguete de un perro beagle sentado con una correa roja en la boca, mirando hacia arriba, cuerpo completo, acabado plástico suave, fondo transparente" class="absolute inset-[13%] h-[74%] w-[74%] object-contain"/>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="sobre-tinta relative -mt-10 rounded-t-[2.5rem] bg-tinta pb-10 pt-16 text-white sm:-mt-14 sm:rounded-t-[3.5rem] sm:pt-20 lg:-mt-20 lg:rounded-t-[5rem] lg:pt-24">
+  <div class="mx-auto max-w-[75rem] px-5 sm:px-8">
+    <div class="grid gap-12 lg:grid-cols-[1.3fr_1fr_1fr_1.2fr] lg:gap-10">
+      <div>
+        <a href="/trote/" class="inline-flex items-center gap-2.5 rounded-full" aria-label="Trote">
+          <span class="flex h-10 w-10 items-center justify-center rounded-full bg-naranja text-tinta">
+            <svg viewBox="0 0 24 24" class="h-6 w-6" fill="currentColor" aria-hidden="true">
+              <path d="M12 11.2c-3 0-5.6 2.6-5.6 5.2 0 1.9 1.5 3 3.2 3 .9 0 1.6-.4 2.4-.4s1.5.4 2.4.4c1.7 0 3.2-1.1 3.2-3 0-2.6-2.6-5.2-5.6-5.2z"></path>
+              <ellipse cx="5.2" cy="10.2" rx="1.9" ry="2.5" transform="rotate(-20 5.2 10.2)"></ellipse>
+              <ellipse cx="9.3" cy="6" rx="2" ry="2.7" transform="rotate(-8 9.3 6)"></ellipse>
+              <ellipse cx="14.7" cy="6" rx="2" ry="2.7" transform="rotate(8 14.7 6)"></ellipse>
+              <ellipse cx="18.8" cy="10.2" rx="1.9" ry="2.5" transform="rotate(20 18.8 10.2)"></ellipse>
+            </svg>
+          </span>
+          <span class="font-display text-2xl font-black leading-none tracking-[-0.04em]">trote</span>
+        </a>
+        <p class="mt-5 max-w-[20rem] font-medium leading-relaxed text-white/75">Paseos de perros en grupos pequeños, con reporte al terminar. Chicó, Rosales y Usaquén, Bogotá.</p>
+      </div>
+
+      
+      <div>
+        <h2 class="font-display text-sm font-bold">Paseos</h2>
+        <ul class="mt-4 space-y-3 font-medium text-white/75">
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">Paseo suelto</a></li>
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">Plan semanal</a></li>
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">Plan mensual</a></li>
+          
+        </ul>
+      </div>
+      
+      <div>
+        <h2 class="font-display text-sm font-bold">Trote</h2>
+        <ul class="mt-4 space-y-3 font-medium text-white/75">
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">Cómo funciona un paseo</a></li>
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">Zonas y paseadores</a></li>
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">Preguntas frecuentes</a></li>
+          
+        </ul>
+      </div>
+      
+
+      <div>
+        <h2 class="font-display text-sm font-bold">Contacto</h2>
+        <ul class="mt-4 space-y-3 font-medium text-white/75">
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">WhatsApp 300 555 0142</a></li>
+          
+          <li><a href="#" class="transition-colors duration-200 hover:text-white">hola@trote.co</a></li>
+          
+          <li>Lunes a sábado, de 7 a. m. a 6 p. m.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-14 flex flex-col gap-6 border-t border-white/15 pt-8 sm:flex-row sm:items-center sm:justify-between">
+      <p class="text-sm font-medium text-white/60">© 2026 Trote. Paseos de perros en Bogotá.</p>
+      <ul class="flex items-center gap-3">
+        <li><a href="#" aria-label="Instagram de Trote" class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition duration-200 hover:bg-naranja hover:text-tinta active:scale-95"><svg class="h-5 w-5" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"></path></svg></a></li>
+        <li><a href="#" aria-label="WhatsApp de Trote" class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition duration-200 hover:bg-naranja hover:text-tinta active:scale-95"><svg class="h-5 w-5" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg></a></li>
+        <li><a href="#" aria-label="Facebook de Trote" class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition duration-200 hover:bg-naranja hover:text-tinta active:scale-95"><svg class="h-5 w-5" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"></path></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</body></html>
